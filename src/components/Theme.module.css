@@ -1,0 +1,38 @@
+.theme {
+    color: white;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.input {
+    height: 3em;
+    border: 1px solid #6e6e6e;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.input::placeholder {
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.cart {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    left: 12px;
+    bottom: 19px;
+    background: red;
+    border-radius: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    text-align: center;
+}

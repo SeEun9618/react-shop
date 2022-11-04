@@ -1,19 +1,16 @@
-import styles from "./Theme.module.css";
-import { TbBrightnessUp } from "react-icons/tb";
-// import { MdOutlineBrightness2 } from "react-icons/md";
-import { BsCart } from "react-icons/bs";
+export const dark ={
+    colors:{
+        titleColor : '#ffffff',
+        bgColor: '#3c3c3c',
+        listBgColor: '#6e6e6e',
+    }
+};
 
-
-export default function Theme() {
-    return (
-        <div className={styles.theme}>
-            <TbBrightnessUp className={styles.icon} />
-            {/*<MdOutlineBrightness2 />*/}
-            <input className={styles.input} type="text" placeholder="검색" />
-            <div className={styles.cart}>
-                <BsCart className={styles.icon} />
-                <span className={styles.badge}>0</span>
-            </div>
-        </div>
-    );
-}
+export const light ={
+    colors:{
+        titleColor : '#000000',
+        bgColor: '#ffffff',
+        borderColor: '1px solid #d8d8d8',
+        listBgColor: '#e6e6e6',
+    }
+};

@@ -11,12 +11,16 @@ const UserInfoContext = (props) => {
 
     const toggleTheme = () => setThemeMode(themeMode === 'light' ? 'dark' : 'light');
 
+
     const UserInfo = {
         themeMode,
         setThemeMode,
         theme,
         toggleTheme,
+
     };
+
+
 
     return (
         <UserInfoContextStore.Provider value={UserInfo}>
